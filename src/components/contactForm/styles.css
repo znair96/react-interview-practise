@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  -webkit-font-smoothing: auto;
+  -moz-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: auto;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-bottom: 12px;
+}
+
+.form-element button {
+  margin-top: 12px;
+  padding: 6px;
+  background-color: lightblue;
+  outline: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.form-element label {
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+.form-element input {
+  padding: 6px;
+}
+
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  border: 1px solid black;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
